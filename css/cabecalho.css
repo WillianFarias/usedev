@@ -1,0 +1,26 @@
+.cabecalho__nav_list {
+    display: grid;
+    grid-template-columns: 1fr auto 50% auto auto auto;
+    list-style-type: none;
+    gap: 40px;
+    width: 100%;
+    align-items: center;
+}
+
+.cabecalho {
+    padding: 32px 12.5%;
+    width: 100%;
+}
+
+.cabecalho__logo {
+    width: 79.61px;
+    height: 48px;
+}
+
+.cabecalho__nav_list_link {
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    color: var(--cor-links);
+    font-family: var(--fonte-texto);
+}
